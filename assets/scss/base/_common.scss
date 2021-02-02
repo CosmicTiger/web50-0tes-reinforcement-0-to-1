@@ -1,0 +1,7 @@
+* {
+    font-size: $standard-font;
+}
+
+h1 {
+    font-size: calc(#{$standard-font} + 14rem);
+}
