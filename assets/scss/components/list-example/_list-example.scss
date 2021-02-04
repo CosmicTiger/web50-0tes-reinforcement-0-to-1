@@ -1,0 +1,32 @@
+// Block -> Bloque, consiste en el componente en su todo
+// Element -> Elemento, consiste en una sección del componente que le da valor a su existencia
+// Modifier -> Modificador, consiste en una clase o un subelemento que no da valor
+// al componente pero da valor al elemento del componente
+.List {
+	// Block SCSS Version
+	font-size: 12px;
+	padding: 20px;
+
+	&-item {
+		// Element SCSS Version
+		font-size: 12rem;
+	}
+
+	&.red {
+		border: 1px solid red;
+	}
+
+	&.blue {
+		background-color: blue;
+		color: white;
+	}
+}
+
+// Block CSS version
+// .UnorderedList {
+
+// }
+// Element CSS Version
+// .UnorderedList-item {
+
+// }

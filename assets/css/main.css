@@ -1,15 +1,34 @@
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap");
-* {
+body {
   margin: 0;
   padding: 0;
 }
 
-* {
+body {
   font-size: 12px;
 }
 
-h1 {
-  font-size: calc(12px + 14rem);
+div {
+  display: block;
+}
+
+.headings {
+  font-size: 14px;
+}
+
+.List {
+  font-size: 12px;
+  padding: 20px;
+}
+.List-item {
+  font-size: 12rem;
+}
+.List.red {
+  border: 1px solid red;
+}
+.List.blue {
+  background-color: blue;
+  color: white;
 }
 
 /*# sourceMappingURL=main.css.map */
