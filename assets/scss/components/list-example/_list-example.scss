@@ -9,7 +9,8 @@
 
 	&-item {
 		// Element SCSS Version
-		font-size: 12rem;
+		font-size: 2rem;
+		padding-left: 40px;
 	}
 
 	&.red {
@@ -23,10 +24,15 @@
 }
 
 // Block CSS version
-// .UnorderedList {
+// .List {
 
 // }
 // Element CSS Version
-// .UnorderedList-item {
+// .List-item {
+
+// }
+
+// Modifier CSS version
+// .List .red, .List .blue {
 
 // }

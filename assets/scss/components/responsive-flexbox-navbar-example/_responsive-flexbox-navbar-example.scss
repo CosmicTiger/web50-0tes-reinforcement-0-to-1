@@ -1,0 +1,52 @@
+/*
+    @doc This code is related to flexbox in the matter
+    of creating a responsive navbar.
+    @author @CosmicTiger
+    @date 04 Feb 2021
+*/
+.Navbar {
+	// Block
+	background-color: $light-gray;
+	font-size: 2rem;
+
+	&-wrapper {
+		// Element
+		display: flex;
+		list-style-type: none;
+		margin: 0;
+		padding: 0;
+	}
+
+	&-item {
+		// Element
+		cursor: pointer;
+		flex: auto;
+		padding: 0.5rem;
+		text-align: center;
+
+		&:hover {
+			// Modifier
+			background-color: $darken-gray;
+			color: $white;
+		}
+	}
+}
+
+@media all and (max-width: 400px) {
+	.Navbar {
+		&-wrapper {
+			flex-direction: column;
+		}
+
+		&-item {
+			height: 100%;
+			width: 100%;
+
+			&:hover {
+				// Modifier
+				background-color: $red;
+				color: $white;
+			}
+		}
+	}
+}

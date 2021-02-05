@@ -5,7 +5,7 @@ body {
 }
 
 body {
-  font-size: 12px;
+  font-size: 16px;
 }
 
 div {
@@ -21,7 +21,8 @@ div {
   padding: 20px;
 }
 .List-item {
-  font-size: 12rem;
+  font-size: 2rem;
+  padding-left: 40px;
 }
 .List.red {
   border: 1px solid red;
@@ -29,6 +30,58 @@ div {
 .List.blue {
   background-color: blue;
   color: white;
+}
+
+/*
+    @doc This code is related to flexbox in the matter
+    of creating a responsive navbar.
+    @author @CosmicTiger
+    @date 04 Feb 2021
+*/
+.Navbar {
+  background-color: #f1f1f1;
+  font-size: 2rem;
+}
+.Navbar-wrapper {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+.Navbar-item {
+  cursor: pointer;
+  flex: auto;
+  padding: 0.5rem;
+  text-align: center;
+}
+.Navbar-item:hover {
+  background-color: #555;
+  color: white;
+}
+
+@media all and (max-width: 400px) {
+  .Navbar-wrapper {
+    flex-direction: column;
+  }
+  .Navbar-item {
+    height: 100%;
+    width: 100%;
+  }
+  .Navbar-item:hover {
+    background-color: red;
+    color: white;
+  }
+}
+.FlexboxMain {
+  display: flex;
+  flex-wrap: wrap;
+}
+.FlexboxMain > div {
+  background-color: springgreen;
+  font-size: 20px;
+  margin: 20px;
+  padding: 20px;
+  width: 200px;
 }
 
 /*# sourceMappingURL=main.css.map */
