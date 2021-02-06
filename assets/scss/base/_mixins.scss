@@ -1,0 +1,30 @@
+// Placeholders
+%flex-property-aside-sidenav {
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: 5rem;
+}
+
+// Mixins
+@mixin pointer-events {
+	&:hover,
+	&:active,
+	&:focus,
+	&:visited {
+		@content;
+	}
+}
+
+@mixin flex-container(
+	$cross-axis: center,
+	$vertical-axis: center,
+	$direction: row
+) {
+	align-items: $vertical-axis;
+	display: flex;
+	flex-direction: $direction;
+	flex-grow: 1;
+	flex-shrink: 1;
+	flex-basis: auto;
+	justify-content: $cross-axis;
+}

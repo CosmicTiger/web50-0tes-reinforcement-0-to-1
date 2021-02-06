@@ -24,10 +24,18 @@
 		padding: 0.5rem;
 		text-align: center;
 
-		&:hover {
+		@include pointer-events {
 			// Modifier
 			background-color: $darken-gray;
 			color: $white;
+		}
+
+		& > a {
+			@include pointer-events {
+				// Modifier
+				color: $white;
+				text-decoration: none;
+			}
 		}
 	}
 }
@@ -42,7 +50,7 @@
 			height: 100%;
 			width: 100%;
 
-			&:hover {
+			@include pointer-events {
 				// Modifier
 				background-color: $red;
 				color: $white;

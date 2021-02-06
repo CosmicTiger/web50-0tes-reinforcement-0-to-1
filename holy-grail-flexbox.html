@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Holy Grail Layout - Flexbox</title>
+		<link href="./assets/css/main.css" rel="stylesheet" />
+	</head>
+
+	<body>
+		<nav class="Navbar">
+			<ul class="Navbar-wrapper">
+				<li class="Navbar-item">
+					<a href="./index.html">Home</a>
+				</li>
+				<li class="Navbar-item">List item - About</li>
+				<li class="Navbar-item">List item - Hobbies</li>
+				<li class="Navbar-item">List item - Projects</li>
+			</ul>
+		</nav>
+		<header class="FlexContainer-header">HEADER</header>
+		<main class="FlexContainer-main">
+			<nav class="FlexContainer-nav">SIDENAV</nav>
+			<article class="FlexContainer-article">
+				<h2>ARTICLE</h2>
+				<section class="FlexContainer-section">SECTION 1</section>
+				<section class="FlexContainer-section">
+					SECTION 2
+					<span class="screen-only"
+						>This paragraph won't appear when you print this page.</span
+					>
+				</section>
+			</article>
+			<aside class="FlexContainer-aside">SIDEBAR</aside>
+		</main>
+		<footer class="FlexContainer-footer">FOOTER</footer>
+	</body>
+</html>
