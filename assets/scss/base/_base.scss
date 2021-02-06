@@ -1,6 +1,7 @@
-@import './fonts';
-@import './variables';
-@import './functions';
-@import './mixins';
-@import './reset';
-@import './common';
+// Importa todos los estilos basicos de la aplicacion o proyecto.
+@import './fonts'; // Va a traer las importaciones de las fuentes para tu proyecto.
+@import './variables'; // Pues crea tus variables sass
+@import './functions'; // Para definicion de funciones programables con Sasscript -> lenguaje sass
+@import './mixins'; // Para crear tus placeholders y tener tus pedazos de codigo CSS reutilizables.
+@import './reset'; // Reiniciar los estilos que puedan venir del navegador, de las preferencias del usuario en su navegador o alguna otra fuente.
+@import './common'; // Estilos generales o genericos a nivel de toda la aplicacion

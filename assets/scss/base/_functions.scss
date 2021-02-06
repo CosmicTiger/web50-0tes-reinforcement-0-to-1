@@ -1,0 +1,3 @@
+@function sumPixel ($a: 0px, $b: 2px) {
+    @return calc($a + $b);
+}

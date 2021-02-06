@@ -1,12 +1,12 @@
-// Vendor styles
+// Vendor styles -> Importar librerias de terceros. Tal es el caso de importar el css de bootstrap
 
 // Our styles
 @import "./base/base";
 
-// Component Styles
+// Component Styles -> Para delimitar los bloques de componente html con sus estilos.
 @import "./components/list-example/list-example";
 @import "./components/responsive-flexbox-navbar-example/responsive-flexbox-navbar-example";
 
-// Views Styles
+// Views Styles -> Para modificar a nivel general la pagina y sus componentes internos.
 @import "./views/homepage/homepage";
 @import "./views/holy-grail-flexbox/holy-grail-flexbox";
